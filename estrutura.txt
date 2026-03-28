@@ -1,0 +1,28 @@
+lib/
+├── main.dart                          # Ponto de entrada
+├── models/
+│   ├── paciente.dart                  # Classe Paciente
+│   ├── registro_pa.dart               # Classe RegistroPA
+│   ├── visita_domiciliar.dart         # Classe VisitaDomiciliar
+│   └── metodo_contraceptivo.dart      # Enum
+├── database/
+│   └── database_helper.dart           # SQLite helper
+├── repositories/
+│   └── paciente_repository.dart       # Repositório
+├── services/
+│   └── estratificacao_service.dart    # Lógica de negócio
+├── screens/
+│   ├── home_screen.dart               # Menu principal
+│   ├── cadastro_screen.dart           # Cadastro de paciente
+│   ├── listagem_screen.dart           # Lista de pacientes
+│   ├── visita_screen.dart             # Registrar visita
+│   ├── pa_screen.dart                 # Registrar PA
+│   ├── filtros_screen.dart            # Filtros
+│   └── relatorio_screen.dart          # Relatórios
+├── widgets/
+│   ├── paciente_card.dart             # Card de paciente
+│   ├── filtro_chip.dart               # Chips de filtro
+│   └── custom_button.dart             # Botões customizados
+└── utils/
+    ├── date_utils.dart                # Formatação de datas
+    └── constants.dart                 # Constantes
